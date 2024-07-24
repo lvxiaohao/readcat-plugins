@@ -12,7 +12,7 @@ plugin.exports = class Plugin implements BookSource {
    * 静态属性 ID  自动生成
    * 该值需符合正则表达式: [A-Za-z0-9_-]
    */
-  public static readonly ID: string = 'XljGQRDkdExqaNHa1B-D1';
+  public static readonly ID: string = 'wechat_dejian_com';
   /**
    * 静态属性 TYPE  必填
    * 插件类型
@@ -30,12 +30,12 @@ plugin.exports = class Plugin implements BookSource {
    * 静态属性 NAME  必填
    * 插件名称
    */
-  public static readonly NAME: string = 'idejian.com';
+  public static readonly NAME: string = '得间小说';
   /**
    * 静态属性 VERSION  必填
    * 插件版本  用于显示
    */
-  public static readonly VERSION: string = '1.0';
+  public static readonly VERSION: string = '1.0.0';
   /**
    * 静态属性 VERSION_CODE  必填
    * 插件版本代码  用于比较本地插件与静态属性PLUGIN_FILE_URL所指插件的版本号
